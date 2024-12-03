@@ -11,3 +11,11 @@ void loop() {
   // put your main code here, to run repeatedly:
 
 }
+
+
+void blinkLed() {
+  digitalWrite(ledpin, HIGH);
+  delay(500);
+  digitalWrite(ledPin, LOW);
+  delay(500); 
+}
